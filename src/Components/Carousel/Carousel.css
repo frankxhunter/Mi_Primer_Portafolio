@@ -1,0 +1,66 @@
+.container_carousel {
+    position: relative;
+    height: 200px;
+
+}
+
+.second_layer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.background_card {
+    max-height: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.first_layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.center_card {
+    position: absolute;
+    height: 175px;
+    max-width: 307px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 95px;
+}
+
+.move_btn {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.move_btn :hover {
+    height: 50px;
+
+}
+
+
+.left_btn {
+    left: 60px;
+
+}
+
+.rigth_btn {
+    right: 60px;
+
+}

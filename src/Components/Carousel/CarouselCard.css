@@ -1,0 +1,57 @@
+.container_card {
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: -3px 9px 82px -30px rgba(0, 0, 0, 0.75);
+
+}
+
+.linkContainer_card {
+  text-decoration: none;
+}
+
+.img_card {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.animationHover-enter {
+  opacity: 0;
+  transition: transform 1s ease-in, opacity 1s ease-in;
+}
+
+.animationHover-enter-active {
+  opacity: 1;
+  transition: transform 1s ease-in, opacity 1s ease-in;
+
+}
+
+.animationHover-exit {
+  opacity: 1;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+
+}
+
+.animationHover-exit-active {
+  opacity: 0;
+  transition: transform 1s ease-in, opacity 1s ease-in;
+
+}
+
+.info_card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-end;
+  gap: 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
