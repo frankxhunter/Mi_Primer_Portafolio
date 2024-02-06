@@ -1,8 +1,9 @@
-.app{
-  width: 500px;
+.app {
+  max-width: 500px;
   margin: auto;
 }
-.handup{
+
+.handup {
   margin: auto;
   position: absolute;
   top: calc(100vh - 40px);
@@ -10,26 +11,29 @@
   right: 0;
   animation: handerdown infinite 1s ease-in-out;
 }
-.handup path{
+
+.handup path {
   color: rgb(234, 234, 16);
 }
 
 @keyframes handerdown {
-  0%{
+  0% {
     transform: translateY(-2px);
   }
-  50%{
+
+  50% {
     transform: translateY(10px);
   }
-  100%{
+
+  100% {
     transform: translateY(-2px);
   }
-  
+
 }
 
 @media (max-width: 500px) {
-  .handup{
-    top: 100;
+  .handup {
+    top: calc(90vh - 40px);
   }
 
-  }
+}

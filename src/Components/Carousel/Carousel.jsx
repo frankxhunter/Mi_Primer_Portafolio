@@ -37,7 +37,6 @@ export function Carousel() {
     function decreaseIterator() {
 
         setDirection("right")
-        //setDirection("left")
         if (iterator == 0) {
             setIterator(cards.length - 1)
         }

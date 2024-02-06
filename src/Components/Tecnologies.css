@@ -1,0 +1,11 @@
+
+.tecnologies_section{
+    margin-bottom: 150px;
+}
+.tecnologies_container{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 90px));
+}

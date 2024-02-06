@@ -30,11 +30,13 @@
 
 .center_card {
     position: absolute;
-    height: 175px;
+    max-height: 175px;
     max-width: 307px;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 95px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .move_btn {
@@ -47,6 +49,7 @@
     width: 30px;
     top: 0;
     bottom: 0;
+    z-index: 20;
 }
 
 .move_btn :hover {
@@ -63,4 +66,24 @@
 .rigth_btn {
     right: 60px;
 
+}
+
+@media (max-width: 500px) {
+    .center_card{
+        max-height: 155px;
+        max-width: 270px;
+    }
+    .background_card{
+        max-height: 105px;
+
+    }
+    .left_btn {
+        left: 25px;
+    
+    }
+    
+    .rigth_btn {
+        right: 25px;
+    
+    }
 }
