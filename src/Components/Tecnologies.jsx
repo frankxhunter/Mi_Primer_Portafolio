@@ -10,10 +10,11 @@ export function Tecnologies(){
         {img: "nodejs.png", name: "Node.js"},
         {img: "mongodb.jpg", name: "MongoDB"},
         {img: "reactjs.png", name: "React.js"},
+        {img: "Vue.png", name: "Vue"},
         {img: "java.jpg", name: "Java"},
         {img: "python.jpg", name: "Python"},
         {img: "C.webp", name: "C"},
-        {img: "prolog.png", name: "Prolog"},
+
     ]
 
     return <section className="tecnologies_section">
