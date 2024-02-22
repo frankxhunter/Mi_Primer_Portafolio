@@ -1,7 +1,7 @@
 import { Introduction } from "./Components/Introduction"
 
 import { FaHandPointDown } from "react-icons/fa";
-import "./app.css"
+import "./App.css"
 import { Proyects } from "./Components/Proyects";
 import { Tecnologies } from "./Components/Tecnologies";
 import { SocialMedias } from "./Components/SocialMedias";
