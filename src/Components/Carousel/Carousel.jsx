@@ -6,15 +6,11 @@ import { FaArrowRight } from "react-icons/fa";
 
 export function Carousel() {
     const cards = [{
-        link: "https://movielec-users.vercel.app/", name: "Orden 0", description: "Esta pagina es un proyecto desarrollado para un taller de repaciones que permite a sus clientes saber en que momento estara listo su producto", image: "example_1.png",
+        link: "https://movielec-users.vercel.app/", name: "Proyect Movielec", description: "Este es un proyecto desarrollado para una taller, que le brinda a los clientes informacion de un ordenes", image: "example_1.png",
     }, {
-        link: "https://movielec-users.vercel.app/", name: "Orden 1", description: "Esta pagina es un proyecto desarrollado para un taller de repaciones que permite a sus clientes saber en que momento estara listo su producto", image: "example_2.png",
+        link: "https://pokedexbyfrank.netlify.app/", name: "Pokedex", description: "Pokedex en javascript vanilla, conectada a la pokeapi", image: "pokedex.png",
     }, {
-        link: "https://movielec-users.vercel.app/", name: "Orden 2", description: "Esta pagina es un proyecto desarrollado para un taller de repaciones que permite a sus clientes saber en que momento estara listo su producto", image: "proyectoMovielec.png",
-    }, {
-        link: "https://movielec-users.vercel.app/", name: "Orden 3", description: "Esta pagina es un proyecto desarrollado para un taller de repaciones que permite a sus clientes saber en que momento estara listo su producto", image: "proyectoMovielec.png",
-    }, {
-        link: "https://movielec-users.vercel.app/", name: "Orden 4", description: "Esta pagina es un proyecto desarrollado para un taller de repaciones que permite a sus clientes saber en que momento estara listo su producto", image: "proyectoMovielec.png",
+        link: "https://cheery-heliotrope-1d7e7d.netlify.app/", name: "Tetris en 45 minutos", description: "Este tetris en parte de un reto de desarrollar un juego tipo tetris totalmente funcional en el menor tiempo posible, su desarrollo tardo 70 minutos ", image: "proyectTetris.png",
     },
 
     ]
