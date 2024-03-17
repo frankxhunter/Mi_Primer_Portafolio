@@ -1,6 +1,6 @@
 .container_carousel {
     position: relative;
-    height: 200px;
+    height: 400px;
 
 }
 
@@ -12,7 +12,7 @@
 }
 
 .background_card {
-    max-height: 120px;
+    max-height: calc(var(--card-size-height)/1.5);
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
@@ -30,8 +30,8 @@
 
 .center_card {
     position: absolute;
-    max-height: 175px;
-    max-width: 307px;
+    height: var(--card-size-height);
+    width: var(--card-size-width);
     top: 0;
     bottom: 0;
     left: 0;
@@ -69,21 +69,23 @@
 }
 
 @media (max-width: 500px) {
-    .center_card{
+    .center_card {
         max-height: 155px;
         max-width: 270px;
     }
-    .background_card{
+
+    .background_card {
         max-height: 105px;
 
     }
+
     .left_btn {
         left: 25px;
-    
+
     }
-    
+
     .rigth_btn {
         right: 25px;
-    
+
     }
 }

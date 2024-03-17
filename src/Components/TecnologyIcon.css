@@ -1,11 +1,11 @@
 .container_icon {
-    width: 70px;
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2px;
+    gap: 5px;
+    margin-top: 10px;
+
 }
 
 .container_icon:hover {
@@ -13,7 +13,11 @@
 }
 
 .container_icon img {
-    width: 40px;
-    height: 40px;
+    width: var(--icon-tecnology-size);
+    height: var(--icon-tecnology-size);
     border-radius: 5px;
+}
+
+.container_icon span{
+    font-size: var(--font-tecnology-size);
 }

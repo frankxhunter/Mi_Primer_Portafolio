@@ -1,15 +1,39 @@
-
-:root{
+:root {
     --color-background: #0F172A;
-    --color-secondary: #8F3985;
+    --color-secondary: #da2cc6;
     --color-letters: #fff;
+    --font-size-h1: 50px;
+    --font-size-h2: 40px;
+    --font-size: 24px;
+    --icon-size: 30px;
+    --card-size-height: 260px;
+    --card-size-width: 450px;
+    --icon-tecnology-size:70px;
+    --font-tecnology-size: 25px;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     color: var(--color-letters);
+    font-size: var(--font-size);
+
 }
-body{
+
+body {
     padding: 10px;
     background-color: var(--color-background);
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+.app {
+    max-width: 700px;
+    margin: auto;
 }

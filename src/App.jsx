@@ -10,7 +10,7 @@ function App() {
   return <div className="app">
      <Introduction></Introduction>
      <SocialMedias></SocialMedias>
-     <FaHandPointDown size={25} className="handup"></FaHandPointDown>
+     <FaHandPointDown size={40} className="handup"></FaHandPointDown>
     <Proyects></Proyects>
     <Tecnologies></Tecnologies>
   </div>

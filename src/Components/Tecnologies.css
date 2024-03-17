@@ -8,4 +8,5 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(70px, 90px));
+    gap: 25px;
 }
