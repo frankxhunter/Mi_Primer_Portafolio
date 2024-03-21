@@ -6,11 +6,25 @@ import { FaArrowRight } from "react-icons/fa";
 
 export function Carousel() {
     const cards = [{
-        link: "https://movielec-users.vercel.app/", name: "Proyect Movielec", description: "Este es un proyecto desarrollado para una taller, que le brinda a los clientes informacion de un ordenes", image: "example_1.png",
-    }, {
+        link: "https://movielec-users.vercel.app/", name: "Proyect Movielec", description: "Este es un proyecto desarrollado para una taller, que le brinda a los clientes informacion de sus ordenes de reparacion", image: "proyectoMovielec.png",
+    },
+    {
+        link: "https://onlycalculatorbyfrank.netlify.app/", name: "Solo es una calculadora", description: "Este proyecto es un un ejemplo basico de los que se puede hacer con javascript, html y css ", image: "onlycalculator.png",
+    },
+    {
         link: "https://pokedexbyfrank.netlify.app/", name: "Pokedex", description: "Pokedex en javascript vanilla, conectada a la pokeapi", image: "pokedex.png",
-    }, {
+    },
+    {
         link: "https://cheery-heliotrope-1d7e7d.netlify.app/", name: "Tetris en 45 minutos", description: "Este tetris en parte de un reto de desarrollar un juego tipo tetris totalmente funcional en el menor tiempo posible, su desarrollo tardo 70 minutos ", image: "proyectTetris.png",
+    },
+    {
+        link: "https://github.com/frankxhunter/BuscaMInas", name: "Busca Minas", description: "Juego del Busca Minas desarrollado totalmente en Java, descargar el archivo jar para probarlo", image: "buscaMinas.png",
+    },
+    {
+        link: "https://paintbyfrank.netlify.app/", name: "Paint", description: "Pequeña herramienta de dibujo tipo Paint hecha con Javascript Vanilla", image: "paint.png",
+    },
+    {
+        link: "https://github.com/frankxhunter/Codman/releases/tag/v1.0.0", name: "Codeman", description: "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdida basado en la inion de Huffman y LZ77", image: "codeman.png",
     },
 
     ]
@@ -41,7 +55,7 @@ export function Carousel() {
         }
 
     }
-   
+
 
     return <div className="container_carousel">
         <div className="second_layer">
