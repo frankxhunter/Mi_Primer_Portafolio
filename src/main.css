@@ -5,11 +5,14 @@
     --font-size-h1: 50px;
     --font-size-h2: 40px;
     --font-size: 24px;
-    --icon-size: 30px;
+    --icon-size: 35px;
+    --icon-border: 2.5px;
     --card-size-height: 260px;
     --card-size-width: 450px;
-    --icon-tecnology-size:70px;
+    --icon-tecnology-size: 70px;
     --font-tecnology-size: 25px;
+    --position-element: center;
+
 }
 
 * {
@@ -33,7 +36,25 @@ h2 {
     font-size: var(--font-size-h2);
 }
 
-.app {
-    max-width: 700px;
-    margin: auto;
+hr {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .handup {
+        top: calc(90vh - var(--icon-size));
+    }
+
+    :root {
+        --font-size-h1: 30px;
+        --font-size-h2: 20px;
+        --font-size: 14px;
+        --icon-size: 25px;
+        --icon-border: 1.5px;
+        --icon-tecnology-size: 50px;
+        --font-tecnology-size: 14px;
+        --position-element: start;
+
+    }
+
 }

@@ -3,7 +3,6 @@
     grid-template-columns: 3fr 1fr;
     align-items: center;
     justify-items: left;
-    margin-top: 10dvh;
 }
 
 .img_introduction {
@@ -28,9 +27,7 @@ hr{
     .img_introduction{
         grid-column: 1;
         justify-self: center;
-        height: 300px;
+        height: 280px;
     }
-    .container_introduction {
-        margin-top: 10dvh;
-    }
+   
 }

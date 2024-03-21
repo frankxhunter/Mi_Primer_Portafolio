@@ -2,12 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding: 10px;
     border-radius: 50%;
-    width: calc(var(--icon-size)*1.7);
-    height: calc(var(--icon-size)*1.7);
     box-sizing: border-box;
-    border: 2.5px solid var(--color-letters);
+    border: var(--icon-border) solid var(--color-letters);
 }
 
 .link_social:hover {
@@ -18,4 +16,9 @@
 
 .link_social:hover>.icon_social {
     fill:  var(--color-secondary);
+}
+@media (max-width: 500px){
+    .link_social {
+        padding: 5px;
+    }
 }
