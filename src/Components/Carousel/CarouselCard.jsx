@@ -9,7 +9,7 @@ export function CarouselCard({ link, image, name, description }) {
 
 
     return <div className="container_card" onMouseOver ={()=>setHoverOnCard(true)} onMouseOut ={()=>setHoverOnCard(false)}>
-        <a href={link} className="linkContainer_card">
+        <a href={link} target="_blank" className="linkContainer_card" rel="noreferrer">
             <img className="img_card" src={image} alt="name" />
             <CSSTransition 
               in={hoverOnCard}
