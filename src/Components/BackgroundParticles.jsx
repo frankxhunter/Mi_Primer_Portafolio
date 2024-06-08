@@ -7,16 +7,8 @@ export function BackgroundParticles() {
     Particles.init({
       selector: '.background',
       color: ['#ffffff'],
-      maxParticles: 70,
+      maxParticles: 50,
       connectParticles: true,
-      responsive: [
-        {
-          breakpoint: 500,
-          options: {
-            maxParticles: 20,
-          }
-        }
-      ]
     });
   };
 
