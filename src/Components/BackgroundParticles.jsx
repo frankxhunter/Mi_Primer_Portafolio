@@ -7,7 +7,8 @@ export function BackgroundParticles() {
       Particles.init({
         selector: '.background',
         color: ['#ffffff'],
-        maxParticles: 50,
+        maxParticles: 30,
+        speed: 0.2,
         connectParticles: true,
       });
     }, []);
