@@ -1,0 +1,13 @@
+  .background {
+    position: fixed;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+
+    background: rgb(27,27,128);
+    background: linear-gradient(200deg, rgba(52, 52, 128, 0.8) 30%, rgba(40,58,74,0.9808298319327731) 70%);
+  }
+

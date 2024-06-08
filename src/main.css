@@ -1,5 +1,6 @@
 :root {
-    --color-background: #0F172A;
+    --color-background: #101726;
+    --color-background: #101726;
     --color-secondary: #da2cc6;
     --color-letters: #fff;
     --font-size-h1: 50px;
@@ -25,7 +26,7 @@
 
 body {
     padding: 10px;
-    background-color: var(--color-background);
+  
 }
 
 h1 {

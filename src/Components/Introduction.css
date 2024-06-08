@@ -9,6 +9,7 @@
     grid-column: 2;
     grid-row: 1 / 5;
     height: 300px;
+    border-radius: 50%;
 }
 
 .description_introdution {

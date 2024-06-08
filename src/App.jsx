@@ -4,15 +4,18 @@ import "./App.css"
 import { Proyects } from "./Components/Proyects";
 import { Tecnologies } from "./Components/Tecnologies";
 import { SocialMedias } from "./Components/SocialMedias";
+import { BackgroundParticles } from "./Components/BackgroundParticles";
+
 function App() {
 
   return <div className="app">
     <section className="section">
+      <BackgroundParticles></BackgroundParticles>
       <Introduction></Introduction>
       <SocialMedias></SocialMedias>
-    <FaHandPointDown  className="handup"></FaHandPointDown>
+      <FaHandPointDown className="handup"></FaHandPointDown>
     </section >
-    <section className="section" > 
+    <section className="section" >
       <Proyects></Proyects>
     </section>
     <section className="section">

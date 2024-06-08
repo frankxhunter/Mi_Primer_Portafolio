@@ -2,7 +2,8 @@
   max-width: 700px;
   margin: auto;
 }
-.section{
+
+.section {
   height: 95vh;
   box-sizing: content-box;
   display: flex;
@@ -39,4 +40,3 @@
   }
 
 }
-
