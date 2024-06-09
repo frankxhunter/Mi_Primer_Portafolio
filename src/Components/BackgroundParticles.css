@@ -6,8 +6,7 @@
     right: 0;
     z-index: -1;
 
+    background: radial-gradient(circle,  rgb(44, 44, 54) 13%, rgb(28, 28, 34) 82%);
 
-    background: rgb(27,27,128);
-    background: radial-gradient(circle, rgba(27,27,128,0.8) 13%, rgba(40,56,74,0.98) 82%);
   }
 

@@ -10,10 +10,10 @@ function App() {
 
   return <div className="app">
     <section className="section">
-      <BackgroundParticles></BackgroundParticles>
       <Introduction></Introduction>
       <SocialMedias></SocialMedias>
       <FaHandPointDown className="handup"></FaHandPointDown>
+      <BackgroundParticles></BackgroundParticles>
     </section >
     <section className="section" >
       <Proyects></Proyects>
