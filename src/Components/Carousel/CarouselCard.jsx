@@ -6,7 +6,7 @@ export function CarouselCard({ link, image, name, description }) {
 
     return <div className="container_card" >
         <a href={link} target="_blank" className="linkContainer_card" rel="noreferrer">
-            <div>
+            <div className="img_container">
                 <img className="img_card" src={image} alt="name" />
             </div>
             <div className="info_card">

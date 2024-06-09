@@ -1,9 +1,7 @@
   .background {
     position: fixed;
-    height: 100%;
-    width: 100%;
-
-    bottom: 0;
+    top: -20vh !important;
+    height: 120vh !important;
     left: 0;
     right: 0;
     z-index: -1;

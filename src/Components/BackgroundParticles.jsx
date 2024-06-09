@@ -13,8 +13,6 @@ export function BackgroundParticles() {
       });
     }, []);
 
-  return <div className="background_contains">
-    <canvas className="background"></canvas>
+  return <canvas className="background"></canvas>
 
-  </div>
 }
