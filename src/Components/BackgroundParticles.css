@@ -2,8 +2,8 @@
     position: fixed;
     top: -20vh !important;
     height: 120vh !important;
-    left: 0;
-    right: 0;
+    left: 0 !important;
+    width: 100vh !important;
     z-index: -1;
 
     background: radial-gradient(circle,  rgb(44, 44, 54) 13%, rgb(28, 28, 34) 82%);
