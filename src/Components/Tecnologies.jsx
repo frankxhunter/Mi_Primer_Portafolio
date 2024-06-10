@@ -4,16 +4,14 @@ import "./Tecnologies.css"
 export function Tecnologies(){
 
     const myTecnologies = [
+        {img: "java.jpg", name: "Java"},
         {img: "JavaScript.png", name: "Javascript"},
         {img: "css.jpeg", name: "CSS"},
         {img: "html.png", name: "HTML"},
+        {img: "reactjs.png", name: "React.js"},
         {img: "nodejs.png", name: "Node.js"},
         {img: "mongodb.jpg", name: "MongoDB"},
-        {img: "reactjs.png", name: "React.js"},
-        {img: "Vue.png", name: "Vue"},
-        {img: "java.jpg", name: "Java"},
         {img: "python.jpg", name: "Python"},
-        {img: "C.webp", name: "C"},
 
     ]
 

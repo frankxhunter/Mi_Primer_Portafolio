@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export function Carousel() {
     const cards = [{
-        link: "https://movielec-users.vercel.app/", name: "Proyect Movielec", description: "Este es un proyecto desarrollado para una taller, que le brinda a los clientes informacion de sus ordenes de reparacion", image: "proyectoMovielec.png",
+        link: "https://movielec-admin.vercel.app/", name: "Proyect Movielec", description: "Este es un proyecto desarrollado para una taller de vehiculos electricos, que le brinda a los clientes informacion de sus ordenes de reparacion", image: "proyectoMovielec.png",
     },
     {
         link: "https://cheery-heliotrope-1d7e7d.netlify.app/", name: "Tetris en 45 minutos", description: "Este tetris en parte de un reto de desarrollar un juego tipo tetris totalmente funcional en el menor tiempo posible, su desarrollo tardo 70 minutos ", image: "proyectTetris.png",
