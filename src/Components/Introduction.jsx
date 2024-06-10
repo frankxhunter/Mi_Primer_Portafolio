@@ -6,10 +6,12 @@ export function Introduction() {
             <h1 >Frank Mesa D.</h1>
             <h2>Web developer!</h2>
         </div>
-            <hr />
-        <p className="description_introdution">Soy un desarrollador fullstack con un enfoque especializado en el backend. Mi experiencia abarca la creación de soluciones completas, desde la interfaz de usuario hasta la lógica del servidor y la gestión eficiente de bases de datos. 
+        <hr />
+        <p className="description_introdution">
+        Desarrollador Web Junior apasionado por la creación de aplicaciones web intuitivas y eficientes. Con una sólida base en HTML, CSS, JavaScript y experiencia práctica en React y Node.js, dedicado a aprender y aplicar las mejores prácticas del desarrollo web.
         <br />
-        Mi pasión por la construcción de sistemas sólidos se refleja en mi capacidad para diseñar y desarrollar APIs eficientes, así como en mi enfoque en la optimización del rendimiento..</p>
+        Motivado por la resolución de problemas y la mejora continua, busco oportunidades para contribuir a proyectos innovadores y seguir desarrollando mis habilidades técnicas y de colaboración en equipo.
+        </p>
         <img className="img_introduction" src="/personal_photos/1.jpg" alt="Frank Mesa" />
 
     </div>
