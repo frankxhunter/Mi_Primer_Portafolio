@@ -26,6 +26,9 @@ export function Carousel() {
     {
         link: "https://github.com/frankxhunter/Codman/releases/tag/v1.0.0", name: "Codeman", description: "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdida basado en la fusion de Huffman y LZ77", image: "codeman.png",
     },
+    {
+        link: "https://list-tasks-angular.netlify.app/", name: "List-Task-Angular", description: "Aplicación de tipo lista de tareas desarrollada en angular que utiliza el localStorage del navegador", image: "list-task-angular.png",
+    },
 
     ]
     const [direction, setDirection] = useState(null)
