@@ -4,7 +4,7 @@
 }
 
 .section {
-  height: 95vh;
+  margin-bottom: 200px;
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,10 @@
 
 .handup path {
   color: rgb(234, 234, 16);
+}
+.container{
+  max-width: 500px !important;
+  max-height: 500px !important;
 }
 
 @keyframes handerdown {

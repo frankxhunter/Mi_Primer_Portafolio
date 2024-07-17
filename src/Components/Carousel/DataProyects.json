@@ -1,0 +1,50 @@
+[
+    {
+        "link": "https://movielec-admin.vercel.app/",
+        "name": "Proyect Movielec",
+        "description": "Proyecto desarrollado para una taller de vehiculos electricos, para brindar informacion de las ordenes de reparacion",
+        "image": "proyectoMovielec.png"
+    },
+    {
+        "link": "https://tik-tak-toe-frankxhunter.netlify.app/",
+        "name": "Tik-Tak-Toe",
+        "description": "Clasico juego del tik tak toe, desarrollado en React.js. Los buenos clasicos nunca se olvidan",
+        "image": "tik-tak-toe.png"
+    },
+    {
+        "link": "https://onlycalculatorbyfrank.netlify.app/",
+        "name": "OnlyCalculator",
+        "description": "Este proyecto se desarrollan las capacidades basicas de logica de programacion en HTML, CSS y JavaScript",
+        "image": "onlycalculator.png"
+    },
+    {
+        "link": "https://pokedexbyfrank.netlify.app/",
+        "name": "Pokedex",
+        "description": "Pokedex desarrollada sin uso de frameworks, ofrece informaciones y características básicas de los Pokemones",
+        "image": "pokedex.png"
+    },
+    {
+        "link": "https://github.com/frankxhunter/BuscaMInas",
+        "name": "Busca Minas",
+        "description": "Juego de escritorio del Busca Minas desarrollado en Java con JavaSwift, con una dificultad totalmente ajustable",
+        "image": "buscaMinas.png"
+    },
+    {
+        "link": "https://paintbyfrank.netlify.app/",
+        "name": "Paint",
+        "description": "Pequeña herramienta de dibujo tipo Paint utilizando la etiqueta de canvas",
+        "image": "paint.png"
+    },
+    {
+        "link": "https://github.com/frankxhunter/Codman/releases/tag/v1.0.0",
+        "name": "Codeman",
+        "description": "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdida",
+        "image": "codeman.png"
+    },
+    {
+        "link": "https://list-tasks-angular.netlify.app/",
+        "name": "List-Task-Angular",
+        "description": "Aplicación de tipo lista de tareas desarrollada en angular que utiliza el localStorage del navegador",
+        "image": "list-task-angular.png"
+    }
+]

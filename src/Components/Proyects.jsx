@@ -1,4 +1,5 @@
-import { Carousel } from "./Carousel/Carousel.jsx";
+// import { Carousel } from "./Carousel/Carousel.jsx";
+import { Carousel } from "./Carousel/Carousel.jsx"
 import "./Proyects.css"
 
 export function Proyects(){
@@ -6,5 +7,6 @@ export function Proyects(){
          <h2>Estos son mis proyectos ✌️</h2>
             <hr />
          <Carousel></Carousel>
+         {/* <SwiperComponent></SwiperComponent> */}
     </section>
 }
