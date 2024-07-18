@@ -184,23 +184,4 @@
 }
 
 @media (max-width: 500px) {
-    .center_card {
-        max-height: 155px;
-        max-width: 270px;
-    }
-
-    .background_card {
-        max-height: 105px;
-
-    }
-
-    .left_btn {
-        left: 25px;
-
-    }
-
-    .right_btn {
-        right: 25px;
-
-    }
 }

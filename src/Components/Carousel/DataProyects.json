@@ -1,48 +1,61 @@
 [
     {
+        "key": 1,
         "link": "https://movielec-admin.vercel.app/",
         "name": "Proyect Movielec",
         "description": "Proyecto desarrollado para una taller de vehiculos electricos, para brindar informacion de las ordenes de reparacion",
         "image": "proyectoMovielec.png"
     },
     {
+        "key": 2,
         "link": "https://tik-tak-toe-frankxhunter.netlify.app/",
+        "github": "https://github.com/frankxhunter/Tik-Tak-Toe-React",
         "name": "Tik-Tak-Toe",
-        "description": "Clasico juego del tik tak toe, desarrollado en React.js. Los buenos clasicos nunca se olvidan",
+        "description": "Clasico juego del tik tak toe, desarrollado en React.js. Los buenos clasicos nunca se olvkeyan",
         "image": "tik-tak-toe.png"
     },
     {
+        "key": 3,
         "link": "https://onlycalculatorbyfrank.netlify.app/",
+        "github":"https://github.com/frankxhunter/Calculator",
         "name": "OnlyCalculator",
         "description": "Este proyecto se desarrollan las capacidades basicas de logica de programacion en HTML, CSS y JavaScript",
         "image": "onlycalculator.png"
     },
     {
-        "link": "https://pokedexbyfrank.netlify.app/",
-        "name": "Pokedex",
-        "description": "Pokedex desarrollada sin uso de frameworks, ofrece informaciones y características básicas de los Pokemones",
-        "image": "pokedex.png"
-    },
-    {
-        "link": "https://github.com/frankxhunter/BuscaMInas",
+        "key": 5,
+        "github": "https://github.com/frankxhunter/BuscaMInas",
         "name": "Busca Minas",
         "description": "Juego de escritorio del Busca Minas desarrollado en Java con JavaSwift, con una dificultad totalmente ajustable",
         "image": "buscaMinas.png"
     },
     {
+        "key": 4,
+        "link": "https://pokedexbyfrank.netlify.app/",
+        "github":"https://github.com/frankxhunter/Pokedex",
+        "name": "Pokedex",
+        "description": "Pokedex desarrollada sin uso de frameworks, ofrece informaciones y características básicas de los Pokemones",
+        "image": "pokedex.png"
+    },
+    {
+        "key": 6,
         "link": "https://paintbyfrank.netlify.app/",
+        "github": "https://github.com/frankxhunter/Paint",
         "name": "Paint",
         "description": "Pequeña herramienta de dibujo tipo Paint utilizando la etiqueta de canvas",
         "image": "paint.png"
     },
     {
-        "link": "https://github.com/frankxhunter/Codman/releases/tag/v1.0.0",
+        "key": 7,
+        "github": "https://github.com/frankxhunter/Codman/releases/tag/v1.0.0",
         "name": "Codeman",
-        "description": "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdida",
+        "description": "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdkeya",
         "image": "codeman.png"
     },
     {
+        "key": 8,
         "link": "https://list-tasks-angular.netlify.app/",
+        "github": "https://github.com/frankxhunter/List-Task-Angular",
         "name": "List-Task-Angular",
         "description": "Aplicación de tipo lista de tareas desarrollada en angular que utiliza el localStorage del navegador",
         "image": "list-task-angular.png"

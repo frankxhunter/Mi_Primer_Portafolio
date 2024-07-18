@@ -1,0 +1,40 @@
+.CardCarrousel {
+    width: 360px;
+    height: 470px;
+    background-color: #1E1E1E !important;
+    margin: 0 auto ;
+    border-radius: 15px
+}
+
+.cardActions {
+    display: flex;
+}
+
+.iconCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 12px;
+    padding: 8px;
+}
+.iconCard:hover{
+    border: 1px solid var(--color-secondary);
+    transform: scale(1.1);
+
+}
+.iconCard:hover > .iconSvg{
+    fill:  var(--color-secondary);
+    transition: 0;
+}
+
+
+@media (max-width: 500px) {
+    .CardCarrousel {
+        width: 245px;
+        height: 370px;
+    }
+    .description{
+        height: 50px !important;
+    }
+}

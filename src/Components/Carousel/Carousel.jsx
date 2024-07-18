@@ -3,7 +3,7 @@ import "./Carousel.css"
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import data from "./DataProyects.json"
-import TestCard from "./TestCard";
+import CardCarrousel from "./CardCarrousel";
 
 
 export function Carousel() {
@@ -21,8 +21,7 @@ export function Carousel() {
         else {
             setIterator(iterator + 1)
         }
-        setTimeout(() => { setDirection("right") }, 1)
-        setDirection(null)
+        setDirection("right")
     }
     function decreaseIterator() {
 
@@ -32,8 +31,7 @@ export function Carousel() {
         else {
             setIterator(iterator - 1)
         }
-        setTimeout(() => { setDirection("left") }, 1)
-        setDirection(null)
+        setDirection("left")
 
     }
 
@@ -42,8 +40,8 @@ export function Carousel() {
             <button onClick={decreaseIterator} className="move_btn left_btn">
                 <FaArrowLeft></FaArrowLeft>
             </button>
-            <div className={"center_card container_card" + " move_to_center_from_" + direction}>
-                <TestCard {...cards[iterator]} ></TestCard>
+            <div className={"center_card container_card" + " move_to_center_from_" + direction}  key={cards[iterator].key}>
+                <CardCarrousel {...cards[iterator]}></CardCarrousel>
             </div>
 
             <button onClick={increaseIterator} className="move_btn right_btn" >
@@ -51,13 +49,13 @@ export function Carousel() {
             </button>
         </div>
         <div className="second_layer center_layer_layout">
-            <div className={"background_card container_card left_card" + " move_left_card_from_" + direction}>
-                <TestCard {...cards[preIterator]} ></TestCard>
+            <div className={"background_card container_card left_card" + " move_left_card_from_" + direction}  key={cards[iterator].key}>
+                <CardCarrousel {...cards[preIterator]}  ></CardCarrousel>
             </div>
         </div>
         <div className="third_layer center_layer_layout">
-            <div className={"background_card container_card right_card move_rigth_card_from_" + direction}>
-                <TestCard {...cards[posIterator]} ></TestCard>
+            <div className={"background_card container_card right_card move_rigth_card_from_" + direction} key={cards[iterator].key} >
+                <CardCarrousel {...cards[posIterator]} ></CardCarrousel>
             </div>
         </div>
 
