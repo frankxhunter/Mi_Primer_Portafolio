@@ -4,12 +4,13 @@
 }
 
 .section {
-  margin-bottom: 200px;
+  min-height: 100vh;
+  margin-bottom: 100px;
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: var(--position-element);
+  justify-content: top;
 }
 
 .handup {
