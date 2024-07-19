@@ -1,7 +1,5 @@
-
-
 .container_introduction {
-    height: 80%;
+    height: 70vh;
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
@@ -13,7 +11,7 @@
     grid-row: 1 / 5;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 0px 3px 56px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 56px 10px rgba(0, 0, 0, 0.75);
 
 
 }
@@ -27,7 +25,7 @@ hr {
     margin: 10px 0;
 }
 
-.typedText{
+.typedText {
     color: var(--color-secondary);
     font-size: smaller;
 }

@@ -21,6 +21,7 @@
     margin: 0;
     color: var(--color-letters);
     font-size: var(--font-size);
+    font-family: sans-serif;
 
 }
 
