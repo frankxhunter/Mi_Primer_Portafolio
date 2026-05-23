@@ -4,15 +4,17 @@ import "./Tecnologies.css"
 export function Tecnologies(){
 
     const myTecnologies = [
+        {img: "SpringBoot.png", name: "SpringBoot"},
         {img: "java.svg", name: "Java"},
+        {img: "angular.svg", name: "Angular"},
+        {img: "react.svg", name: "React.js"},
         {img: "javascript.svg", name: "Javascript"},
         {img: "css.svg", name: "CSS"},
         {img: "https://svgl.app/library/html5.svg", name: "HTML"},
-        {img: "react.svg", name: "React.js"},
-        {img: "angular.svg", name: "Angular"},
         {img: "node.svg", name: "Node.js"},
         {img: "mongo.svg", name: "MongoDB"},
         {img: "mysql.svg", name: "MySQL"},
+        {img: "aws.png", name: "AWS"},
 
     ]
 

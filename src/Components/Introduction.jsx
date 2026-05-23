@@ -26,7 +26,7 @@ export function Introduction() {
         </div>
         <hr />
         <p className="description_introdution">
-            Desarrollador Web Junior apasionado por la creación de aplicaciones web intuitivas y eficientes. Dedicado a aprender y aplicar las mejores prácticas del desarrollo web.
+            Desarrollador Web apasionado por la creación de aplicaciones web intuitivas y eficientes. Dedicado a aprender y aplicar las mejores prácticas del desarrollo web.
             <br />
             Motivado por la resolución de problemas y la mejora continua, busco oportunidades para contribuir a proyectos innovadores y seguir desarrollando mis habilidades técnicas y de colaboración en equipo.
         </p>

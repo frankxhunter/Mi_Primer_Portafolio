@@ -31,14 +31,20 @@
     },
     {
         "key": 5,
-        "link": "https://shortfy.link/ioQOwRGH",
         "github":"https://shortfy.link/rQZjrCMK",
         "name": "Shortify",
-        "description": "Shoritfy es una aplicacion web completa que permite recortar y gestionar links rapidamente",
+        "description": "Shortify es una aplicacion web completa que permite recortar y gestionar links rapidamente",
         "image": "shortify.png"
     },
     {
         "key": 6,
+        "github": "https://github.com/frankxhunter/frontend-Cardinal",
+        "name": "Cardinal",
+        "description": "Chat con IA (Angular y SpringBoot), con respuestas en tiempo real.",
+        "image": "cardinal.png"
+    },
+    {
+        "key": 7,
         "link": "https://pokedexbyfrank.netlify.app/",
         "github":"https://github.com/frankxhunter/Pokedex",
         "name": "Pokedex",
@@ -46,26 +52,10 @@
         "image": "pokedex.png"
     },
     {
-        "key": 7,
-        "link": "https://paintbyfrank.netlify.app/",
-        "github": "https://github.com/frankxhunter/Paint",
-        "name": "Paint",
-        "description": "Pequeña herramienta de dibujo tipo Paint utilizando la etiqueta de canvas",
-        "image": "paint.png"
-    },
-    {
         "key": 8,
         "github": "https://github.com/frankxhunter/Codman/releases/tag/v1.0.0",
         "name": "Codeman",
         "description": "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdida",
         "image": "codeman.png"
-    },
-    {
-        "key": 9,
-        "link": "https://list-tasks-angular.netlify.app/",
-        "github": "https://github.com/frankxhunter/List-Task-Angular",
-        "name": "List-Task-Angular",
-        "description": "Aplicación de tipo lista de tareas desarrollada en angular que utiliza el localStorage del navegador",
-        "image": "list-task-angular.png"
     }
 ]
