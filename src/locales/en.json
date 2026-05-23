@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Frank Mesa D."
+  },
+  "intro": {
+    "typed": ["Software Engineer", "Web Developer", "Mobile App Developer", "Full Stack Developer"],
+    "description_p1": "Web developer passionate about building intuitive and efficient web applications. Committed to learning and applying best practices in web development.",
+    "description_p2": "Driven by problem solving and continuous improvement, I look for opportunities to contribute to innovative projects and keep developing my technical skills and teamwork."
+  },
+  "tecnologies": {
+    "title": "Technologies I use 🧐"
+  },
+  "projects": {
+    "title": "These are my projects ✌️"
+  }
+}

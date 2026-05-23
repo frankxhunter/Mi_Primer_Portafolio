@@ -1,6 +1,13 @@
 /* eslint-disable react/prop-types */
+import React from "react";
 import "./CarouselCard.css"
+
+import i18n from "../../i18n";
+
 export function CarouselCard({ link, image, name, description }) {
+    // description may be a string or an object with locale keys { es, en }
+    const locale = i18n.detectLocale ? i18n.detectLocale() : "en";
+    const text = description && typeof description === "object" ? (description[locale] || description.en) : description;
 
 
 
@@ -11,7 +18,7 @@ export function CarouselCard({ link, image, name, description }) {
             </div>
             <div className="info_card">
                 <h4 className="title_card" >{name}</h4>
-                <span className="description_card">{description}</span>
+                <span className="description_card">{text}</span>
             </div>
         </a>
 

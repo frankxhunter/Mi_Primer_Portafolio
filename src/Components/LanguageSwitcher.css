@@ -1,0 +1,56 @@
+.lang-switcher {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 9999;
+  display: flex;
+  gap: 8px;
+  background: rgba(255,255,255,0.03);
+  padding: 6px;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  color: #eaeaea;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 150ms ease, transform 120ms ease;
+}
+
+.lang-btn .flag { font-size: 16px; }
+
+.lang-btn .label { font-size: 12px; opacity: 0.9; }
+
+.lang-btn:hover { transform: translateY(-2px); }
+
+.lang-btn.active {
+  /* stronger contrast for the active language */
+  background: linear-gradient(90deg, rgba(141, 138, 138, 0.98), rgba(100, 99, 99, 0.96));
+  color: #111;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.32), 0 2px 6px rgba(0,0,0,0.12) inset;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+/* smooth transitions */
+.lang-btn {
+  transition: background 180ms ease, transform 120ms ease, color 140ms ease, box-shadow 180ms ease;
+}
+
+/* dark/light variant: try to match your site by using slight borders */
+.lang-switcher { border: 1px solid rgba(255,255,255,0.04);} 
+
+@media (max-width: 480px) {
+  .lang-switcher { right: 8px; top: 8px; }
+  .lang-btn .label { display: none; }
+}

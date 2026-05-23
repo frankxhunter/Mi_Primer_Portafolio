@@ -1,21 +1,28 @@
 import { useEffect } from "react";
 import "./Introduction.css"
 import Typed from "typed.js"
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import i18n from "../i18n";
 export function Introduction() {
 
     const el = useRef(null);
 
+    const [messages, setMessages] = useState(null);
+
     useEffect(() => {
-        const typed = new Typed(el.current, {
-            strings: ['Software Engineer','Web developer', 'Mobile App Developer', 'Full Stack Developer'],
-            typeSpeed: 50,
-            loop: true,
-            loopCount: 2,
-        })
+        let typed;
+        i18n.getMessages().then((m) => {
+            setMessages(m);
+            typed = new Typed(el.current, {
+                strings: m.intro.typed,
+                typeSpeed: 50,
+                loop: true,
+                loopCount: 2,
+            })
+        });
 
         return ()=>{
-            typed.destroy();
+            if (typed) typed.destroy();
         }
     },[])
 
@@ -26,9 +33,15 @@ export function Introduction() {
         </div>
         <hr />
         <p className="description_introdution">
-            Desarrollador Web apasionado por la creación de aplicaciones web intuitivas y eficientes. Dedicado a aprender y aplicar las mejores prácticas del desarrollo web.
-            <br />
-            Motivado por la resolución de problemas y la mejora continua, busco oportunidades para contribuir a proyectos innovadores y seguir desarrollando mis habilidades técnicas y de colaboración en equipo.
+            {messages ? (
+                <>
+                    {messages.intro.description_p1}
+                    <br />
+                    {messages.intro.description_p2}
+                </>
+            ) : (
+                ""
+            )}
         </p>
         <img className="img_introduction" src="/personal_photos/1.jpg" alt="Frank Mesa" />
 

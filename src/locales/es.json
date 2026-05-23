@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Frank Mesa D."
+  },
+  "intro": {
+    "typed": ["Ingeniero de Software", "Desarrollador Web", "Desarrollador de Aplicaciones Móviles", "Desarrollador Full Stack"],
+    "description_p1": "Desarrollador Web apasionado por la creación de aplicaciones web intuitivas y eficientes. Dedicado a aprender y aplicar las mejores prácticas del desarrollo web.",
+    "description_p2": "Motivado por la resolución de problemas y la mejora continua, busco oportunidades para contribuir a proyectos innovadores y seguir desarrollando mis habilidades técnicas y de colaboración en equipo."
+  },
+  "tecnologies": {
+    "title": "Tecnologías que utilizo 🧐"
+  },
+  "projects": {
+    "title": "Estos son mis proyectos ✌️"
+  }
+}

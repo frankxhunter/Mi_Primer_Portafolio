@@ -41,7 +41,13 @@ export function Carousel() {
                 <FaArrowLeft></FaArrowLeft>
             </button>
             <div className={"center_card container_card" + " move_to_center_from_" + direction}  key={cards[iterator].key}>
-                <CardCarrousel {...cards[iterator]}></CardCarrousel>
+                {
+                    (()=>{
+                        const c = cards[iterator];
+                        const { key, ...rest } = c;
+                        return <CardCarrousel key={key} {...rest}></CardCarrousel>
+                    })()
+                }
             </div>
 
             <button onClick={increaseIterator} className="move_btn right_btn" >
@@ -49,13 +55,25 @@ export function Carousel() {
             </button>
         </div>
         <div className="second_layer center_layer_layout">
-            <div className={"background_card container_card left_card" + " move_left_card_from_" + direction}  key={cards[iterator].key}>
-                <CardCarrousel {...cards[preIterator]}  ></CardCarrousel>
+            <div className={"background_card container_card left_card" + " move_left_card_from_" + direction}  key={cards[preIterator].key}>
+                {
+                    (()=>{
+                        const c = cards[preIterator];
+                        const { key, ...rest } = c;
+                        return <CardCarrousel key={key} {...rest} ></CardCarrousel>
+                    })()
+                }
             </div>
         </div>
         <div className="third_layer center_layer_layout">
-            <div className={"background_card container_card right_card move_rigth_card_from_" + direction} key={cards[iterator].key} >
-                <CardCarrousel {...cards[posIterator]} ></CardCarrousel>
+            <div className={"background_card container_card right_card move_rigth_card_from_" + direction} key={cards[posIterator].key} >
+                {
+                    (()=>{
+                        const c = cards[posIterator];
+                        const { key, ...rest } = c;
+                        return <CardCarrousel key={key} {...rest} ></CardCarrousel>
+                    })()
+                }
             </div>
         </div>
 

@@ -2,8 +2,11 @@
     {
         "key": 1,
         "link": "https://movielec-admin.vercel.app/",
-        "name": "Proyect Movielec",
-        "description": "Proyecto desarrollado para una taller de vehiculos electricos, para brindar informacion de las ordenes de reparacion",
+        "name": "Movielec Project",
+        "description": {
+            "es": "Proyecto desarrollado para una taller de vehiculos electricos, para brindar informacion de las ordenes de reparacion",
+            "en": "Project developed for an electric vehicles workshop to provide information about repair orders"
+        },
         "image": "proyectoMovielec.png"
     },
     {
@@ -11,7 +14,10 @@
         "link": "https://tik-tak-toe-frankxhunter.netlify.app/",
         "github": "https://github.com/frankxhunter/Tik-Tak-Toe-React",
         "name": "Tik-Tak-Toe",
-        "description": "Clasico juego del tik tak toe, desarrollado en React.js. Los buenos clasicos nunca se olvidan",
+        "description": {
+            "es": "Clasico juego del tik tak toe, desarrollado en React.js. Los buenos clasicos nunca se olvidan",
+            "en": "Classic tic-tac-toe game, developed in React.js. Good classics are never forgotten"
+        },
         "image": "tik-tak-toe.png"
     },
     {
@@ -19,28 +25,40 @@
         "link": "https://onlycalculatorbyfrank.netlify.app/",
         "github":"https://github.com/frankxhunter/Calculator",
         "name": "OnlyCalculator",
-        "description": "Este proyecto se desarrollan las capacidades basicas de logica de programacion en HTML, CSS y JavaScript",
+        "description": {
+            "es": "Este proyecto se desarrollan las capacidades basicas de logica de programacion en HTML, CSS y JavaScript",
+            "en": "This project develops basic programming logic skills using HTML, CSS and JavaScript"
+        },
         "image": "onlycalculator.png"
     },
     {
         "key": 4,
         "github": "https://github.com/frankxhunter/BuscaMInas",
-        "name": "Busca Minas",
-        "description": "Juego de escritorio del Busca Minas desarrollado en Java con JavaSwift, con una dificultad totalmente ajustable",
+        "name": "Minesweeper",
+        "description": {
+            "es": "Juego de escritorio del Busca Minas desarrollado en Java con JavaSwift, con una dificultad totalmente ajustable",
+            "en": "Desktop Minesweeper game developed in Java with JavaSwing, with fully adjustable difficulty"
+        },
         "image": "buscaMinas.png"
     },
     {
         "key": 5,
         "github":"https://shortfy.link/rQZjrCMK",
         "name": "Shortify",
-        "description": "Shortify es una aplicacion web completa que permite recortar y gestionar links rapidamente",
+        "description": {
+            "es": "Shortify es una aplicacion web completa que permite recortar y gestionar links rapidamente",
+            "en": "Shortify is a full web app that allows quickly shortening and managing links"
+        },
         "image": "shortify.png"
     },
     {
         "key": 6,
         "github": "https://github.com/frankxhunter/frontend-Cardinal",
         "name": "Cardinal",
-        "description": "Chat con IA (Angular y SpringBoot), con respuestas en tiempo real.",
+        "description": {
+            "es": "Chat con IA (Angular y SpringBoot), con respuestas en tiempo real.",
+            "en": "AI chat (Angular + SpringBoot) with real-time responses."
+        },
         "image": "cardinal.png"
     },
     {
@@ -48,14 +66,20 @@
         "link": "https://pokedexbyfrank.netlify.app/",
         "github":"https://github.com/frankxhunter/Pokedex",
         "name": "Pokedex",
-        "description": "Pokedex desarrollada sin uso de frameworks, ofrece informaciones y características básicas de los Pokemones",
+        "description": {
+            "es": "Pokedex desarrollada sin uso de frameworks, ofrece informaciones y características básicas de los Pokemones",
+            "en": "Pokedex developed without frameworks, providing basic information and features about Pokémon"
+        },
         "image": "pokedex.png"
     },
     {
         "key": 8,
         "github": "https://github.com/frankxhunter/Codman/releases/tag/v1.0.0",
         "name": "Codeman",
-        "description": "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdida",
+        "description": {
+            "es": "Herramienta para compresion y descompresion de ficheros de texto que utiliza un algoritmo sin perdida",
+            "en": "Tool for lossless compression and decompression of text files using a custom algorithm"
+        },
         "image": "codeman.png"
     }
 ]

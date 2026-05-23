@@ -11,7 +11,7 @@ import "./CardCarrousel.css"
 
 export default function CardCarrousel({ link,github, image, name, description }) {
   return (
-      <Card className="CardCarrousel"  back>
+      <Card className="CardCarrousel">
         <CardMedia
           sx={{ height: 190, objectFit: "cover" }}
           image={image}
@@ -22,7 +22,7 @@ export default function CardCarrousel({ link,github, image, name, description })
           {name}
           </Typography>
           <Typography variant="body2" color="#929292" height={120} overflow={"auto"} className='description'>
-          {description}
+          {typeof description === 'object' ? (description["en"] || description["es"] || JSON.stringify(description)) : description}
           </Typography>
         <CardActions sx={{marginTop: "15px", padding: 0}}>
           {github ? <Link size="small" target="_blank" className='iconCard' href={github}><GitHubIcon className='iconSvg'/></Link>: ""}

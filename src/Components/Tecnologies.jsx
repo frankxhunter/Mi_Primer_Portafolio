@@ -1,3 +1,4 @@
+import React from "react"
 import { TecnologyIcon } from "./TecnologyIcon"
 import "./Tecnologies.css"
 
@@ -18,8 +19,13 @@ export function Tecnologies(){
 
     ]
 
+    const [title, setTitle] = React.useState(null);
+    React.useEffect(()=>{
+        import("../i18n").then(mod => mod.getMessages()).then(m => setTitle(m.tecnologies.title)).catch(()=>setTitle("Tecnologies"));
+    },[])
+
     return <section className="tecnologies_section">
-        <h2>Tecnologías que utilizo 🧐</h2>
+        <h2>{title ?? "Tecnologies"}</h2>
         <hr />
         <div className="tecnologies_container">
             {myTecnologies.map((e)=> {
