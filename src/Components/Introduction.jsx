@@ -43,7 +43,8 @@ export function Introduction() {
                 ""
             )}
         </p>
-        <img className="img_introduction" src="/personal_photos/1.jpg" alt="Frank Mesa" />
+        {/* <img className="img_introduction" src="/personal_photos/1.jpg" alt="Frank Mesa" /> */}
+        <img className="img_introduction" src="/personal_photos/foto-perfil.png" alt="Frank Mesa" />
 
     </div>
 }
