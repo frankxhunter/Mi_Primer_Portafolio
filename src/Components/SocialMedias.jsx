@@ -7,9 +7,9 @@ import { BiLogoGmail } from "react-icons/bi";
 export function SocialMedias() {
 
     return <section className="social_media_section">
-        <SocialLink icon={<BsGithub  className="icon_social" />} link={"https://shortfy.link/09E5AUln"}></SocialLink>
-        <SocialLink icon={<BsBriefcase  className="icon_social" />} link={"https://shortfy.link/xrvAU5yX"}></SocialLink>
-        <SocialLink icon={<BsLinkedin  className="icon_social" />} link={"https://shortfy.link/UukWeQrD"}></SocialLink>
+        <SocialLink icon={<BsGithub  className="icon_social" />} link={"https://github.com/frankxhunter"}></SocialLink>
+        <SocialLink icon={<BsBriefcase  className="icon_social" />} link={"https://flowcv.com/resume/wlnl31ns80"}></SocialLink>
+        <SocialLink icon={<BsLinkedin  className="icon_social" />} link={"https://www.linkedin.com/in/frank-mesa-dom%C3%ADnguez"}></SocialLink>
         <SocialLink icon={<BiLogoGmail  className="icon_social" />} link={"mailto:frankmesad24@gmail.com"}></SocialLink>
 
     </section>
